@@ -1,6 +1,6 @@
 # LoadingMessage
 
-**TODO: Add description**
+Loading Message. Generator of random funny loading messages
 
 ## Installation
 

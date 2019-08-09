@@ -1,12 +1,29 @@
 defmodule LoadingMessage.MixProject do
   use Mix.Project
 
+  defp description do
+    """
+    Loading Message. Library to select one random funny loading message.
+    """
+  end
+
+  defp package do
+    [
+      files: ["lib", "mix.exs", "README*", "LICENSE*"],
+      maintainers: ["Pedro Luz"],
+      licenses: ["MIT"],
+      links: %{"GitHub" => "https://github.com/Narven/nazrul"}
+    ]
+  end
+
   def project do
     [
       app: :loading_message,
       version: "0.1.0",
       elixir: "~> 1.9",
       start_permanent: Mix.env() == :prod,
+      description: description(),
+      package: package(),
       deps: deps()
     ]
   end
@@ -21,8 +38,7 @@ defmodule LoadingMessage.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      # {:dep_from_hexpm, "~> 0.3.0"},
-      # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
+      {:ex_doc, "~> 0.21.1", only: :dev, runtime: false}
     ]
   end
 end

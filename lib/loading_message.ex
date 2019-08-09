@@ -1,18 +1,14 @@
 defmodule LoadingMessage do
+  alias LoadingMessage.Messages
+
   @moduledoc """
   Documentation for LoadingMessage.
   """
 
   @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> LoadingMessage.hello()
-      :world
-
+  Returns a random message from a list
   """
-  def hello do
-    :world
+  def random do
+    Messages.random()
   end
 end
