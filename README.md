@@ -10,7 +10,7 @@ by adding `loading_message` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:loading_message, "~> 0.1.0"}
+    {:loading_message, "~> 0.2.0"}
   ]
 end
 ```
