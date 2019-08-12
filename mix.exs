@@ -12,7 +12,7 @@ defmodule LoadingMessage.MixProject do
       files: ["lib", "mix.exs", "README*", "LICENSE*"],
       maintainers: ["Pedro Luz"],
       licenses: ["MIT"],
-      links: %{"GitHub" => "https://github.com/Narven/nazrul"}
+      links: %{"GitHub" => "https://github.com/Narven/loading-message"}
     ]
   end
 
