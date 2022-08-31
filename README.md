@@ -15,7 +15,7 @@ def deps do
 end
 ```
 
-## Usage
+## Usage
 
 ```elixir
 LoadingMessage.Messages.random()
